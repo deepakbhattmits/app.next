@@ -1,0 +1,13 @@
+{
+	"name": "app-next",
+	"version": "1.0.0",
+	"description": "demo for next js",
+	"main": "index.js",
+	"author": "deepak bhatt",
+	"license": "MIT",
+	"scripts": {
+		"dev": "next",
+		"build": "next build",
+		"start": "next start"
+	}
+}
