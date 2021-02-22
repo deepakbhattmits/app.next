@@ -6,8 +6,15 @@
 	"author": "deepak bhatt",
 	"license": "MIT",
 	"scripts": {
-		"dev": "next",
+		"dev": "node server2.js",
 		"build": "next build",
-		"start": "next start"
+		"start": "NODE_ENV=production node server2.js"
+	},
+	"dependencies": {
+		"axios": "^0.21.1",
+		"express": "^4.17.1",
+		"next": "^10.0.7",
+		"react": "^17.0.1",
+		"react-dom": "^17.0.1"
 	}
 }
